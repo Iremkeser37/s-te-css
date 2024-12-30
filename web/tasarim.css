@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #818585;
+}
+body{
+    font-family: "Playwrite CO Guides", serif;
+    font-weight: 125%;
+}
+.container{
+    background-color: black;
+    width: 960px;
+    margin: 60px auto 60px auto;
+}
+header{
+    color: #fff;
+    padding: 30px 0; /* iç boşluk */
+    text-align: center; /* yazıyı ortalama */
+    background-color: black;
+    margin: 60px auto 60px auto;
+}
+header ul{
+    color: #fff;
+    display: flex; /* ul'nin içindeki nesneler esnek olur */
+    justify-content: center; /* içeriği ortaya hizalama */
+    list-style: none; /* listedeki noktaların kaybolması için */
+}
+#menu a{
+    text-align: center;
+    text-decoration: none; /* bağlantıların altındaki çizgiyi kaldırdı ana sayfa, hakkımızda, iletişim*/
+    padding: 15px 8px 0px 8px;
+    color: #fff;
+}
+main{
+    width: 125%;
+    margin: 20px;
+}
+main img{
+    justify-content: center; /* içeriği ortaya hizalama */
+    border: 3px solid #fff; /* border çerçeve yapar ve solid rengini seçer */
+    border-radius: 8px; /* çerçevenin köşelerini ovalleştiriyor */
+    
+}
+footer{
+    text-align: center; /* yazıyı ortalama */
+    color: #fff;
+    margin: auto;
+    padding: 30px 0;
+    background-color: black;
+}

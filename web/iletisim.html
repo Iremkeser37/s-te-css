@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+</head>
+<body>
+    <fieldset>
+    <legend>Mesaj Gönder</legend>
+    <form action="kaydet.html" method="post">
+        <input type="text" name="isim" id="isim" required placeholder="Adınızı Giriniz"><br><br>
+        <input type="email" name="eposta" id="eposta" required placeholder="E-posta adresinizi giriniz"><br><br>
+        <!--input türlerinden radio kullanıldığında name değerleri aynı id değerleri farklı olmalıdır-->
+        <input type="radio" name="cinsiyet" id="kiz" value="Kız">
+        <label for="kiz">Kız</label>
+        <input type="radio" name="cinsiyet" id="erkek" value="Erkek">
+        <label for="erkek">Erkek</label><br><br>
+            <select name="iletisim" id="iletisim">
+                <option value="bilgi">Bilgi almak istiyorum</option>
+                <option value="oneri">Öneride bulunmak istiyorum</option>
+                <option value="sikayet">Şikayetimi iletmek istiyorum</option>
+            </select>
+            <br><br>
+        <textarea name="bilgi" id="bilgi" cols="50" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsa odit sit maiores consequuntur facere eligendi, nemo debitis numquam est ipsum, quod laborum. Quo animi odit eius sit quam reiciendis.
+        </textarea>
+            <br><br>
+        <button type="submit">Kaydet</button>
+        <button type="reset">Temizle</button>
+    </fieldset>
+    </form>
+</body>
+</html>
