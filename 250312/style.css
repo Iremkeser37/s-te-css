@@ -1,0 +1,90 @@
+header{
+    background-color: #075192;
+    padding-top: 20px;
+}
+#ana-menu{
+    background-color: #075192;
+}
+.gri-arkaplan{
+    background-color: #ecf1f5;
+}
+#ana-menu .nav-link{
+    color: #ecf1f5;
+}
+#meb-baslik{
+    color: #0c63a9;
+}
+#okul-baslik{
+    color: #1295d5;
+}
+#baglantilar .list-group-item{
+    color: #ecf1f5;
+    background-color: #0c63a9;
+    margin-right: 2px;
+}
+#liste-baslik{
+    height: 70px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#kutu{
+    background: rgba(0, 0, 0, 0.411);
+    padding: 10px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 30px;
+    height: 7px;
+    background-color: black;
+}
+:root{
+    --pink:#e91546;
+    --orange:#fc6f22;
+    --green:#71b908;
+    --laci:#075192;
+    --acikmav:#1295D5;
+}
+#haberler-baslik{
+    background-color: var(--pink);
+}
+#duyurular-baslik{
+    background-color: var(--orange);
+}
+#islemler-baslik{
+    background-color: var(--green);
+}
+#haberler-baslik, #duyurular-baslik, #islemler-baslik{
+    padding: 15px;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom-right-radius: 25px;
+}
+#haberler .list-group-item:hover{
+    color: var(--pink);
+}
+#duyurular .list-group-item:hover{
+    color: var(--orange);
+}
+#islemler .list-group-item:hover{
+    color: var(--green);
+}
+.yazi-renk{
+    color: var(--laci);
+}
+.table th{
+    color: var(--acikmav);
+}
+.kurum{
+    height: 105px;
+    width: 200px;
+    
+}
+.btn{
+    background-color: var(--acikmav);
+    color: white;
+    font-weight: bold;
+    max-height: fit-content;
+    padding: 10px;
+    font-size: 18px;
+}
