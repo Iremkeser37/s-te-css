@@ -23,12 +23,12 @@
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
     --bs-primary: rgb(60, 32, 17);
-    --bs-secondary: #e9e5e0;
+    --bs-secondary: rgb(233, 229, 224);
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
-    --bs-light: #f8f9fa;
+    --bs-light: #c0c0c0;
     --bs-dark: #212529;
     --bs-primary-rgb: 60, 32, 17;
     --bs-secondary-rgb: 108,117,125;
